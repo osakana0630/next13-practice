@@ -1,9 +1,7 @@
-import Image from 'next/image'
-
-export default function Home() {
+export default function About() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h2>Home画面</h2>
+    <main>
+      <h2>About画面</h2>
     </main>
   )
 }
